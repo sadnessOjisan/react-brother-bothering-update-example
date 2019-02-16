@@ -11,4 +11,7 @@
 
 ## どうしてこの実装がめんどくさいか
 
-root から見た header, contents は兄弟関係である。それぞれ state を持っている。header は contents が入力状態かどうかを監視している。
+root から見た header, contents は兄弟関係である。
+それぞれ state を持っている。
+header は contents が入力状態かどうかを監視している。
+そのとき header は contents の state を知るために、root に contents の state を保存する処理を書き、それを header で実行し、保存された state を header が見に行くというバケツリレーをしている。
