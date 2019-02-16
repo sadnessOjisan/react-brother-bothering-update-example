@@ -1,0 +1,19 @@
+{
+  "name": "react-brother-bothering-update-example",
+  "version": "1.0.0",
+  "description": "兄弟コンポーネントの更新は面倒臭いんだぞexample",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/react-brother-bothering-update-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/react-brother-bothering-update-example/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/react-brother-bothering-update-example#readme"
+}
