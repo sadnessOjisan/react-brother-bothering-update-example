@@ -2,9 +2,21 @@
   "name": "react-brother-bothering-update-example",
   "version": "1.0.0",
   "description": "兄弟コンポーネントの更新は面倒臭いんだぞexample",
-  "main": "webpack.config.js",
+  "main": "src/index.jsx",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "repository": {
     "type": "git",
